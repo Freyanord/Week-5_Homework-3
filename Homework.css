@@ -131,4 +131,18 @@ h4 {
     gap: 5px;
 }
 
+.form {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: baseline;
+    width: 760px;
+    margin-left: 350px;
+}
+
+.form1, .form2 {
+    width: 380px;
+    
+}
+
+
 
