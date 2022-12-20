@@ -1,6 +1,6 @@
 .navigation-bar {
     position: absolute;
-    width: 1440px;  
+    width: 1150px;  
     height: 80px;
     display: block;
 }
@@ -52,21 +52,21 @@ right: 86.25%;
 top: calc(50% - 48px/2 - 50px);
 }
 
-.container {
-    width: 1440px;
-    min-height: 1390px;
-    margin-top: 220px;
-    margin-left: 100px;
-}
-
-section.block1,.block2 {
-    display: inline-block;
-    padding: 15px;
+.container1 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 760px;
+    min-height: 550px;
+    margin-top: 200px;
+    margin-left: 350px;
+    gap: 5px;
 }
 
 .block1 {
     width: 507px;
     min-height: 550px;
+    align-self: stretch;
 }
 
 .img1 {
@@ -111,6 +111,24 @@ h4 {
 
 .block3 {
     width: 243px;
-    min-height: 94px;
-    
+    min-height: 255px;
 }
+
+.container2 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    width: 760px;
+    margin-left: 350px;
+    gap: 5px;
+}
+.container3 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    width: 760px;
+    margin-left: 350px;
+    gap: 5px;
+}
+
+
